@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8" />
+   <html lang="en">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <link rel="stylesheet" href="register.css" />
+   <title>register</title>
+ </head>
+ <body style="background-color: #f8f5f2;">
+    <div class="wrapper">
+        <header class="header">
+        <img src="img/cforce.png" alt="cforce">
+        </header>
+        <div> 
+            <table>
+                <tr>
+                    <td> 
+                        <ul>
+
+                        <!-- USING CHECKBOX HACK -->
+                        <input type="checkbox" id="checkbox_toggle" />
+                        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                
+                        <!-- NAVIGATION MENUS -->
+                        <div class="menu">
+                
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="register.html">register</a></li>
+                            <li><a href="about.html">About</a></li>
+                        
+                        </div> 
+                    </ul>
+                 </td>
+                    <td>
+                        <div class="search">
+                            <input class = "srch" type="search" name="" placeholder="Type to text">
+                            <a class="btn1" href="#"> Serach </a> 
+                        </div>
+                    </td>
+                </tr>
+                  
+            </table>
+        </div>
+        <div class="rows"> 
+    
+            <article class="main">
+                <h1 class="h1welcome">welcome to Computer Force</h1>
+                <h2 class="h2force">Computer Force is your online expert in all things computing </h2>
+    
+            </article>
+            
+            <aside class="aside">
+            <h2>purchases</h2>
+            <table>
+                <tr>
+                    <td>0 items.</td>
+                    <td>card sub-total: $0.</td>
+                </tr>
+                <tr>
+                    <td colspan=2><button>GO TO CHECK OUT </button> </td>
+                </tr>
+            </table>
+            </aside>
+        </div>    
+       
+    </div>
+    <form action="#" method="post">
+        
+        <div clas="frm">
+             <div class="form-group">
+                <label for="username">Username*</label>
+                <input type="text" id="username" name="username" required> 
+             </div> 
+             <div class="form-group">
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" name="email" required> 
+             </div> 
+             <div class="form-group">
+                <label for="password">Password*</label>
+                <input type="password" id="password" name="password" required> 
+             </div> 
+             <div class="form-group">
+                <label for="confirm password">confirm password*</label>
+                <input type="confirm password" id="confirm password" name="confirm password" required> 
+             </div> 
+             <div class="form-group">
+                <label for="first name">first name*</label>
+                <input type="text" id="first name" name="first name" required> 
+             </div> 
+             <div class="form-group">
+                <label for="surname">Surname*</label>
+                <input type="text" id="surname" name="surname" required> 
+             </div> 
+             <div class="form-group">
+                <label for="gender">Gender*</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date of birth">date of birth</label>
+                <input type="text" id="date of birth" name="date of birth" required> 
+             </div>
+             <div class="form-group">
+                <label for="address">address*</label>
+                <input type="text" id="address" name="address" required> 
+             </div>  
+             <div class="form-group">
+                <label for="suburb">Suburb*</label>
+                <input type="text" id="suburb" name="suburb" required> 
+             </div> 
+             <div class="form-group">
+                <label for="post code">Post code*</label>
+                <input type="text" id="post code" name="post code" required> 
+             </div> 
+             <div class="form-group">
+                <label for="state">State*</label>
+                <select id="state" name="state" required>
+                    <option value="">Select state</option>
+                    <option value="ACT">ACT</option>
+                    <option value="NSW">NSW</option>
+                    <option value="NT">NT</option>
+                    <option value="QLD">QLD</option>
+                    <option value="SA">SA</option>
+                    <option value="TAS">TAS</option>
+                    <option value="VIC">VIC</option>
+                    <option value="WA">WA</option>
+                </select>
+            </div>
+             <div class="form-group">
+                <label for="phone number">Phone number*</label>
+                <input type="text" id="phone number" name="phone number" required> 
+             </div> 
+             <div class="form-group">
+                <label for="clear">Clear*</label>
+                <input type="text" id="clear" name="clear" required> 
+             </div> 
+             <div class="form-group">
+                <button type="submit" class="register-button">Register</button>
+                <button type="reset" class="clear-buttom">clear</button>
+             </div>
+             
+        </div>   
+         
+    </form>
+         
+        <footer>
+          <p class="footer">copyright © 2024 Diego Garcia </p>
+        </footer>
+ </body>
+</html>
